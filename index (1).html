@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffe7ef">
+<title>Untuk Adel cantik ♡</title>
+<style>
+:root{--pink:#ff789c;--pink2:#ffd7e4;--cream:#fff9f4;--lilac:#e8ddff;--ink:#55385f;--navy:#252344}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Trebuchet MS",system-ui,sans-serif;color:var(--ink);background:linear-gradient(145deg,#fff6f1,#ffe4ef 48%,#eae2ff);min-height:100vh;overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:0}
+.sparkle{position:fixed;pointer-events:none;z-index:0;opacity:.65;animation:float 6s ease-in-out infinite;font-size:22px}
+@keyframes float{50%{transform:translateY(-18px) rotate(12deg)}}
+.wrap{position:relative;z-index:1;max-width:760px;margin:auto;padding:22px 15px 50px}
+.top{text-align:center;font-size:.9rem;letter-spacing:2px;color:#a06b91}
+.hero,.paper,.memory,.giftarea{border:2px solid #fff;background:#ffffffc9;box-shadow:0 15px 40px #9b6a8b1c;border-radius:28px;padding:25px;margin:16px 0;text-align:center}
+.hero{padding:38px 20px;background:linear-gradient(145deg,#fff9f3,#ffe2eb)}
+.crown{font-size:42px}
+h1{font-size:clamp(2.2rem,9vw,4.2rem);line-height:1.05;margin:12px 0;color:#70477e}
+.name{display:inline-block;background:#ffb4c9;border-radius:18px;padding:9px 18px;transform:rotate(-2deg);font-size:clamp(1.35rem,5vw,2rem);color:#593b70}
+.subtitle{line-height:1.8;max-width:490px;margin:22px auto}
+.cake{font-size:100px;filter:drop-shadow(0 7px 3px #e99eb966);margin:10px}
+.btn{background:linear-gradient(135deg,#ff7197,#ff9db6);color:white;border-radius:999px;padding:13px 21px;box-shadow:0 7px 0 #e65f87;font-weight:bold;margin:7px;transition:.2s}
+.btn:active{transform:translateY(4px);box-shadow:0 3px 0 #e65f87}
+.btn.secondary{background:#7863a9;box-shadow:0 7px 0 #57467f}
+h2{margin:4px 0 16px;color:#76508b}
+.paper{text-align:left;background:#fffdf6;border-radius:16px;padding:25px 23px;line-height:1.85;position:relative}
+.paper:before{content:"💌";position:absolute;right:18px;top:8px;font-size:25px}
+.paper p{margin-top:6px}
+.memories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.polaroid{background:white;padding:10px 10px 15px;border-radius:9px;box-shadow:0 7px 15px #715c8a20;transform:rotate(var(--r));}
+.photo{height:125px;border-radius:6px;background:linear-gradient(145deg,#ffcfdd,#d9d0ff);display:flex;align-items:center;justify-content:center;font-size:43px}
+.polaroid p{font-size:.9rem;text-align:center;margin:9px 2px 0}
+.hint{font-size:.85rem;opacity:.75}
+.giftarea{background:linear-gradient(145deg,#30294e,#51416f);color:white;padding:30px 18px}
+.giftarea h2{color:#ffc4db}
+.gift{font-size:105px;display:inline-block;animation:bob 2s infinite;filter:drop-shadow(0 0 20px #ffbddc80)}
+@keyframes bob{50%{transform:translateY(-8px) rotate(3deg)}}
+.hidden{display:none}
+.reveal{background:#fff9fd;color:#654778;border-radius:20px;padding:18px;margin-top:18px;line-height:1.8;animation:pop .4s ease}
+@keyframes pop{from{opacity:0;transform:scale(.88)}to{opacity:1;transform:scale(1)}}
+.final{background:linear-gradient(140deg,#ffcfde,#d9ccff);border-radius:28px;text-align:center;padding:30px 18px;margin-top:18px}
+.footer{text-align:center;font-size:.82rem;opacity:.7;margin:22px}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:9;overflow:hidden}
+.bit{position:absolute;top:-15px;font-size:20px;animation:fall 3.2s linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(700deg);opacity:0}}
+@media(min-width:600px){.memories{grid-template-columns:repeat(3,minmax(0,1fr))}.photo{height:145px}}
+</style>
+</head>
+<body>
+<div id="confetti"></div>
+<div class="sparkle" style="top:9%;left:6%">✦</div><div class="sparkle" style="top:20%;right:7%;animation-delay:1s">♡</div>
+<div class="sparkle" style="top:52%;left:3%;animation-delay:2s">✧</div><div class="sparkle" style="top:74%;right:5%;animation-delay:.5s">☆</div>
+<main class="wrap">
+  <div class="top">✧ SEBUAH KEJUTAN KECIL UNTUKMU ✧</div>
+  <section class="hero">
+    <div class="crown">👑</div>
+    <h1>Happy<br>Birthday!</h1>
+    <div class="name">Adel cantik ♡</div>
+    <p class="subtitle">Hari ini hari spesial seseorang yang juga spesial. Walaupun kita lagi jauh, aku tetap mau ikut bikin hari kamu jadi lebih berwarna. 🎀</p>
+    <div class="cake">🎂</div>
+    <button class="btn" onclick="party()">Buka kejutan kecil ✨</button>
+    <p class="hint">psst… scroll ke bawah, masih ada sesuatu buat kamu ♡</p>
+  </section>
+
+  <section class="paper">
+    <h2>💌 Pesan rahasia</h2>
+    <p><b>Untuk Adel cantik,</b></p>
+    <p>Selamat ulang tahun, semoga panjang umur dan diberikan kesehatan, dan sukses selalu. Semoga hal-hal baik makin sering datang ke hidupmu, urusanmu dimudahkan, dan kamu selalu punya alasan buat tersenyum.</p>
+    <p>Makasih sudah jadi bagian dari cerita dan hari-hari yang ada. Tetap jadi dirimu sendiri, ya. Jangan lupa istirahat, jaga kesehatan, dan jangan terlalu keras sama diri sendiri. Kamu pantas mendapatkan banyak hal baik. ♡</p>
+    <p><b>#yaxın dostlardan və ya dostdan daha çox 😆</b></p>
+    <p style="text-align:right">— dari aku, yang ingat hari spesialmu ♡</p>
+  </section>
+
+  <section class="memory">
+    <h2>📸 Galeri kenangan</h2>
+    <p class="hint">Ini masih tempat foto sementara. Kamu bisa menggantinya dengan foto kalian sebelum mengirim website ini.</p>
+    <div class="memories">
+      <div class="polaroid" style="--r:-2deg"><div class="photo">🌅</div><p>Momen kecil yang berharga ♡</p></div>
+      <div class="polaroid" style="--r:2deg"><div class="photo">🧋</div><p>Semoga ada banyak cerita baru!</p></div>
+      <div class="polaroid" style="--r:-1deg"><div class="photo">🌷</div><p>Untuk kenangan yang belum dibuat ✨</p></div>
+    </div>
+    <p class="hint">Tips: untuk versi yang lebih personal, ganti kotak emoji ini dengan foto kalian.</p>
+  </section>
+
+  <section class="giftarea">
+    <h2>🎁 Ada satu lagi…</h2>
+    <p>Tekan kotak hadiah ini untuk membuka kejutan terakhir!</p>
+    <button class="gift" aria-label="Buka hadiah" onclick="openGift()">🎁</button>
+    <div><button class="btn" onclick="openGift()">Buka hadiahnya! 💖</button></div>
+    <div id="reveal" class="reveal hidden">
+      <div style="font-size:45px">💗✨🎉</div>
+      <h2>Surpriseee, Adel!</h2>
+      Semoga tahun barumu penuh kebahagiaan, kesehatan, keberanian mencoba hal baru, dan kesuksesan. Semoga satu per satu impianmu bisa tercapai. Tetap semangat, tetap baik, dan tetap jadi Adel yang unik! 🫶
+    </div>
+  </section>
+
+  <section class="final">
+    <div style="font-size:38px">🌙🌸</div>
+    <h2>Selamat ulang tahun, Adel cantik!</h2>
+    <p>Semoga panjang umur, selalu sehat, dan sukses selalu dalam setiap langkahmu.</p>
+    <p><b>#yaxın dostlardan və ya dostdan daha çox 😆</b></p>
+    <button class="btn secondary" onclick="party()">Kirim peluk virtual ♡</button>
+  </section>
+  <div class="footer">Dibuat dengan niat baik dan sedikit rasa malu 😆 ♡</div>
+</main>
+<script>
+function party(){
+ const box=document.getElementById('confetti');
+ const symbols=['💖','🎉','✨','🌸','🎀','⭐','♡'];
+ for(let i=0;i<45;i++){
+   const e=document.createElement('span');e.className='bit';
+   e.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+   e.style.left=Math.random()*100+'%';
+   e.style.animationDelay=(Math.random()*.8)+'s';
+   e.style.fontSize=(14+Math.random()*18)+'px';
+   box.appendChild(e);setTimeout(()=>e.remove(),4000);
+ }
+}
+function openGift(){
+ document.getElementById('reveal').classList.remove('hidden');
+ party();
+ document.getElementById('reveal').scrollIntoView({behavior:'smooth',block:'center'});
+}
+</script>
+</body>
+</html>
